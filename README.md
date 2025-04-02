@@ -1,0 +1,1 @@
+# Industrial-alarm-monitoring-application-with-LightningChart-Python
