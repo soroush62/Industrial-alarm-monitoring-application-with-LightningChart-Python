@@ -50,7 +50,7 @@ xgb_model.fit(X_train_clean, y_train_clean)
 y_pred = xgb_model.predict(X_test)
 ```
 
-![](Images/real_time.gif)  
+![](Images/real_time.mp4)  
 
 #### **Ensemble Model & Uncertainty Visualization**
 Here in this dashboard, we can see uncertainty chart for different classes. 
