@@ -50,7 +50,7 @@ xgb_model.fit(X_train_clean, y_train_clean)
 y_pred = xgb_model.predict(X_test)
 ```
 
-![](Image/real_time.gif)  
+![](Images/real_time.gif)  
 
 #### **Ensemble Model & Uncertainty Visualization**
 Here in this dashboard, we can see uncertainty chart for different classes. 
@@ -64,7 +64,7 @@ for seed in seeds:
     models_list.append(model_ens)
 ```
 
-![](Image/Uncertainty_Band.png)  
+![](Images/Uncertainty_Band.png)  
 
 #### **Exploratory Data Visualization Dashboard**
 
@@ -75,7 +75,7 @@ severity_counts = df["AlarmSeverityName"].value_counts()
 pie_chart.add_slices([{'name': sev, 'value': int(count)} for sev, count in severity_counts.items()])
 ```
 
-![](Image/dashboard.png)  
+![](Images/dashboard.png)  
 ## Conclusion
 
 This project demonstrates how we could use LightningChart Python to visualize and monitor industrial alarm data. This approach gives us a powerful insight into system behaviors, alarm severity levels, and maintenance needs.
